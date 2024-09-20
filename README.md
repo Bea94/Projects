@@ -6,4 +6,4 @@ Proyectos desde Begginer para trabajar HTML, CSS y JavaScript aportados por: htt
 
 
 ***
-Proyectos en proceso. Iré poniendo ✅ al lado de los que estén terminados
+Proyectos en proceso. Iré poniendo ✅ al lado de los que estén terminados. Mi Github: https://github.com/Bea94/Projects.git
