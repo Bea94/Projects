@@ -3,6 +3,7 @@
 Proyectos desde Begginer para trabajar HTML, CSS y JavaScript aportados por: https://roadmap.sh/frontend/projects
 
 - Mi CV (HTML y CSS): https://roadmap.sh/projects/single-page-cv
+- Basic HTML Website: https://roadmap.sh/projects/basic-html-website
 
 
 ***
