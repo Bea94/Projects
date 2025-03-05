@@ -1,0 +1,188 @@
+/* GUÍA DE COMENTARIOS PLUGIN Better Comments: */
+/* * VERDE CLARO -> tarea hecha */
+/* ! ROJO -> advertencia, errores, algo no está ok */
+/* ? AZUL -> dudas, preguntas */
+/* TODO NARANJA -> tareas que quedan por hacer */
+
+
+body {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 15px;
+    margin: 48px;
+}
+
+
+.div-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
+}
+
+header {
+    padding-bottom: 48px;
+}
+
+.div-header-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.mi-foto {
+    height: 2.5em; 
+    width: 2em;
+    border-radius: 100%;
+}
+
+.div-header-navigation {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding-right: 16px;
+}
+
+.div-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+h1 {
+    font-family: "Caveat", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 10%;
+}
+
+.div-title > p {
+    color: grey;
+}
+
+/* *MAIN */
+h3 {
+    font-family: "Caveat", serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.div-main-container {
+    display: grid;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.div-projects {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-right: 2px solid black;
+}
+
+.p-projects {
+    padding-left: 16px;
+}
+
+.div-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: 2px solid black;
+}
+
+.linea-separacion {
+    width: auto;
+    height: 2px;
+    background-color: black;
+}
+
+.div-education {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.div-work1 {
+    padding: 16px;
+}
+
+.div-work1 > a {
+    font-size: 12px;
+    color: #2678C5;
+}
+
+.sh {
+    font-family: "Caveat", serif;
+    font-size: 18px;
+}
+
+.li-list{
+    list-style-type: square;
+}
+
+.div-main-reviews{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.section-reviews {
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    gap: 24px;
+}
+
+.div-review {
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 16px;
+    width: fit-content;
+    max-width: 250px;
+    height: auto;
+}
+
+.p-firma {
+    color: grey;
+}
+
+/* *FOOTER */
+.p-footer{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .footer {
+    border: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+} */
+
